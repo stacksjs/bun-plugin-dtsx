@@ -1,4 +1,16 @@
 
+## v0.21.0...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.21.0...main)
+
+### 🏡 Chore
+
+- Minor cleanup ([cebb8e2](https://github.com/stacksjs/bun-plugin-dts-auto/commit/cebb8e2))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](http://github.com/chrisbbreuer))
+
 ## v0.20.6...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.20.6...main)
