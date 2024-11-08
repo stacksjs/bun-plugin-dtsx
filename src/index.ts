@@ -1,5 +1,7 @@
+// @ts-expect-error - types are missing for now
 import type { DtsGenerationOption } from '@stacksjs/dtsx'
 import type { BunPlugin } from 'bun'
+// @ts-expect-error - types are missing for now
 import { generate } from '@stacksjs/dtsx'
 
 export function dts(options?: DtsGenerationOption): BunPlugin {
@@ -28,8 +30,6 @@ export function dts(options?: DtsGenerationOption): BunPlugin {
     },
   }
 }
-
-export { generate }
 
 export type { DtsGenerationOption }
 
