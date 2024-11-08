@@ -1,4 +1,16 @@
 
+## v0.21.1...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.21.1...main)
+
+### 🏡 Chore
+
+- Default to dtsx defaults ([d915657](https://github.com/stacksjs/bun-plugin-dts-auto/commit/d915657))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](http://github.com/chrisbbreuer))
+
 ## v0.21.0...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.21.0...main)
