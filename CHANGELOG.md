@@ -1,4 +1,16 @@
 
+## v0.21.3...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.21.3...main)
+
+### 🏡 Chore
+
+- Update `dtsx` ([1a53da5](https://github.com/stacksjs/bun-plugin-dts-auto/commit/1a53da5))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](http://github.com/chrisbbreuer))
+
 ## v0.21.2...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.21.2...main)
