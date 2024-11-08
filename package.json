@@ -1,7 +1,7 @@
 {
   "name": "bun-plugin-dtsx",
   "type": "module",
-  "version": "0.21.2",
+  "version": "0.21.3",
   "description": "A Bun Bundler plugin that auto generates your d.ts types extremely fast.",
   "author": "Chris Breuer <chris@ow3.org>",
   "license": "MIT",
