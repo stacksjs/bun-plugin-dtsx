@@ -5,13 +5,13 @@
   "description": "A Bun Bundler plugin that auto generates your d.ts types extremely fast.",
   "author": "Chris Breuer <chris@ow3.org>",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/bun-plugin-dts-auto#readme",
+  "homepage": "https://github.com/stacksjs/bun-plugin-dtsx#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/bun-plugin-dts-auto.git"
+    "url": "git+https://github.com/stacksjs/bun-plugin-dtsx.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/bun-plugin-dts-auto/issues"
+    "url": "https://github.com/stacksjs/bun-plugin-dtsx/issues"
   },
   "keywords": [
     "dts",
