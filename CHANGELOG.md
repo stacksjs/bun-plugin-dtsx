@@ -1,4 +1,18 @@
 
+## v0.21.7...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.7...main)
+
+### 🏡 Chore
+
+- Adjust image url ([586df55](https://github.com/stacksjs/bun-plugin-dtsx/commit/586df55))
+- Remove unused '@ts-expect-error' directives ([92ee344](https://github.com/stacksjs/bun-plugin-dtsx/commit/92ee344))
+- Update dtsx ([400d1dc](https://github.com/stacksjs/bun-plugin-dtsx/commit/400d1dc))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](http://github.com/chrisbbreuer))
+
 ## v0.21.6...v0.21.6
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.6...v0.21.6)
