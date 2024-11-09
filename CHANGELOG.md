@@ -1,4 +1,17 @@
 
+## v0.21.5...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.5...main)
+
+### 🏡 Chore
+
+- Adjust readme ([5e3f11b](https://github.com/stacksjs/bun-plugin-dtsx/commit/5e3f11b))
+- Update deps ([118019d](https://github.com/stacksjs/bun-plugin-dtsx/commit/118019d))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](http://github.com/chrisbbreuer))
+
 ## v0.21.4...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dts-auto/compare/v0.21.4...main)
