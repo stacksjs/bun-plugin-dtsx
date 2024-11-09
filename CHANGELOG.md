@@ -1,4 +1,8 @@
 
+## v0.21.6...v0.21.6
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.6...v0.21.6)
+
 ## v0.21.5...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.5...main)
