@@ -50,7 +50,7 @@
     "typecheck": "bun tsc --noEmit"
   },
   "dependencies": {
-    "@stacksjs/dtsx": "^0.6.2"
+    "@stacksjs/dtsx": "^0.7.0"
   },
   "devDependencies": {
     "@stacksjs/eslint-config": "^3.8.1-beta.2",
