@@ -1,4 +1,16 @@
 
+## v0.21.8...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.8...main)
+
+### 🏡 Chore
+
+- Update dtsx and bun ([a990114](https://github.com/stacksjs/bun-plugin-dtsx/commit/a990114))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](http://github.com/chrisbbreuer))
+
 ## v0.21.7...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.7...main)
