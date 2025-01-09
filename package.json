@@ -54,12 +54,12 @@
   },
   "devDependencies": {
     "@stacksjs/eslint-config": "^3.8.1-beta.2",
-    "@types/bun": "^1.1.14",
-    "bumpp": "^9.9.2",
+    "@types/bun": "^1.1.16",
+    "bumpp": "^9.10.0",
     "changelogen": "^0.5.7",
     "lint-staged": "^15.3.0",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "simple-git-hooks": {
     "pre-commit": "bun lint-staged"
