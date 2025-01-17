@@ -54,10 +54,10 @@
   },
   "devDependencies": {
     "@stacksjs/eslint-config": "^3.8.1-beta.2",
-    "@types/bun": "^1.1.16",
-    "bumpp": "^9.10.0",
+    "@types/bun": "^1.1.17",
+    "bumpp": "^9.10.1",
     "changelogen": "^0.5.7",
-    "lint-staged": "^15.3.0",
+    "lint-staged": "^15.4.1",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.3"
   },
