@@ -2,7 +2,7 @@
   "name": "bun-plugin-dtsx",
   "type": "module",
   "version": "0.21.9",
-  "description": "A Bun Bundler plugin that auto generates your d.ts types extremely fast.",
+  "description": "A Bun Bundler plugin that auto generates your DTS types extremely fast.",
   "author": "Chris Breuer <chris@ow3.org>",
   "license": "MIT",
   "homepage": "https://github.com/stacksjs/bun-plugin-dtsx#readme",
@@ -53,11 +53,11 @@
     "@stacksjs/dtsx": "^0.8.0"
   },
   "devDependencies": {
-    "@stacksjs/eslint-config": "^3.8.1-beta.2",
+    "@stacksjs/eslint-config": "^3.15.1-beta.4",
     "@types/bun": "^1.1.17",
-    "bumpp": "^9.10.1",
+    "bumpp": "^10.0.1",
     "changelogen": "^0.5.7",
-    "lint-staged": "^15.4.1",
+    "lint-staged": "^15.4.3",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.3"
   },

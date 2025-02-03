@@ -12,6 +12,7 @@ composables
 degit
 deps
 destructurable
+dtsx
 eabi
 entrypoints
 gnueabihf
