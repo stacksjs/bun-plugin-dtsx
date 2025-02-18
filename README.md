@@ -84,7 +84,7 @@ For casual chit-chat with others using this package:
 
 ## Postcardware
 
-You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving postcards makes us happy—and we will publish them on our website._
+“Software that is free, but hopes for a postcard.” We love receiving postcards from around the world showing where `bun-plugin-dtsx` is being used! We showcase them on our website too.
 
 Our address: Stacks.js, 12665 Village Ln #2306, Playa Vista, CA 90094, United States 🌎
 

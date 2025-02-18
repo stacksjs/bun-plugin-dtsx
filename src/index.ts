@@ -2,30 +2,56 @@ import type { DtsGenerationOption } from '@stacksjs/dtsx'
 import type { BunPlugin } from 'bun'
 import { generate } from '@stacksjs/dtsx'
 
-export function dts(options?: DtsGenerationOption): BunPlugin {
+/**
+ * Configuration interface extending DtsGenerationOption with build-specific properties
+ */
+interface PluginConfig extends DtsGenerationOption {
+  build?: {
+    config: {
+      root?: string
+      outdir?: string
+    }
+  }
+}
+
+/**
+ * Creates a Bun plugin for generating TypeScript declaration files
+ * @param options - Configuration options for DTS generation
+ * @returns BunPlugin instance
+ */
+export function dts(options: PluginConfig = {}): BunPlugin {
   return {
     name: 'bun-plugin-dtsx',
 
     async setup(build) {
-      const cwd = options?.cwd
-      const root = options?.root || build.config.root
-      const entrypoints = options?.entrypoints // || build.config.entrypoints - we are not resorting to this yet because the `bundle` dtsx option is not yet supported
-      const outdir = options?.outdir || build.config.outdir
-      const clean = options?.clean
-      const tsconfigPath = options?.tsconfigPath
-      // const keepComments = options?.keepComments || true
-
-      await generate({
-        ...options,
-        cwd,
-        root,
-        entrypoints,
-        outdir,
-        clean,
-        tsconfigPath,
-        // keepComments,
-      })
+      const config = normalizeConfig(options, build)
+      await generate(config)
     },
+  }
+}
+
+/**
+ * Normalizes and validates the configuration
+ * @param options - User provided options
+ * @param build - Build configuration
+ * @returns Normalized configuration
+ */
+function normalizeConfig(options: PluginConfig, build: PluginConfig['build']): DtsGenerationOption {
+  const root = options.root || build?.config.root
+  const outdir = options.outdir || build?.config.outdir
+
+  if (!root) {
+    throw new Error('[bun-plugin-dtsx] Root directory is required')
+  }
+
+  return {
+    ...options,
+    cwd: options.cwd,
+    root,
+    entrypoints: options.entrypoints,
+    outdir,
+    clean: options.clean,
+    tsconfigPath: options.tsconfigPath,
   }
 }
 
