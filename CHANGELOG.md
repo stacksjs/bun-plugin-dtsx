@@ -1,4 +1,22 @@
 
+## v0.21.9...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.9...main)
+
+### 🏡 Chore
+
+- Update renovate config ([669bbcb](https://github.com/stacksjs/bun-plugin-dtsx/commit/669bbcb))
+- Add github funding info ([4c553bb](https://github.com/stacksjs/bun-plugin-dtsx/commit/4c553bb))
+- Several minor updates ([ce37c00](https://github.com/stacksjs/bun-plugin-dtsx/commit/ce37c00))
+- Enhance funding ([99e5b46](https://github.com/stacksjs/bun-plugin-dtsx/commit/99e5b46))
+- Improve postcardware and fix test case ([8c07add](https://github.com/stacksjs/bun-plugin-dtsx/commit/8c07add))
+- Add stacksjs/docs ([9fb31ed](https://github.com/stacksjs/bun-plugin-dtsx/commit/9fb31ed))
+
+### ❤️ Contributors
+
+- Cab-mikee ([@cab-mikee](https://github.com/cab-mikee))
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.21.8...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.8...main)
