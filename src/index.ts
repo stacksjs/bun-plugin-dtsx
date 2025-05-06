@@ -19,7 +19,10 @@ interface PluginConfig extends DtsGenerationOption {
  * @param options - Configuration options for DTS generation
  * @returns BunPlugin instance
  */
-export function dts(options: PluginConfig = {}): BunPlugin {
+export function dts(options: PluginConfig = {
+  root: './src',
+  outdir: './dist',
+}): BunPlugin {
   return {
     name: 'bun-plugin-dtsx',
 
