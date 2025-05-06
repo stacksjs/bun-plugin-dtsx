@@ -6,6 +6,7 @@ console.log('Building...')
 const result = await Bun.build({
   entrypoints: ['src/index.ts'],
   outdir: 'dist',
+  root: './src',
   target: 'bun',
   external: ['@stacksjs/dtsx'],
   // minify: true,
