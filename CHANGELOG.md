@@ -1,4 +1,16 @@
 
+## v0.21.11...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.11...main)
+
+### 🏡 Chore
+
+- Add default ([b7b07e8](https://github.com/stacksjs/bun-plugin-dtsx/commit/b7b07e8))
+
+### ❤️ Contributors
+
+- Cab-mikee ([@cab-mikee](https://github.com/cab-mikee))
+
 ## v0.21.10...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.10...main)
