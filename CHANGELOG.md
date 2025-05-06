@@ -1,4 +1,16 @@
 
+## v0.21.10...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.10...main)
+
+### 🏡 Chore
+
+- Add git-hooks ([c597d10](https://github.com/stacksjs/bun-plugin-dtsx/commit/c597d10))
+
+### ❤️ Contributors
+
+- Cab-mikee ([@cab-mikee](https://github.com/cab-mikee))
+
 ## v0.21.9...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.9...main)
