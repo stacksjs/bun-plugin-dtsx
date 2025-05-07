@@ -99,7 +99,6 @@ We would like to extend our thanks to the following sponsors for funding Stacks 
 
 Many thanks to the following core technologies & people who have contributed to this package:
 
-- [Oxc](https://oxc.rs/)
 - [Chris Breuer](https://github.com/chrisbbreuer)
 - [All Contributors](../../contributors)
 
