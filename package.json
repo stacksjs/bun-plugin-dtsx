@@ -65,8 +65,9 @@
   "git-hooks": {
     "pre-commit": {
       "staged-lint": {
-        "*.{js,ts}": "gitlint && bunx --bun eslint . --fix"
+        "*.{js,ts,json,yaml,yml,md}": "bunx --bun eslint . --fix"
       }
-    }
+    },
+    "commit-msg": "bunx gitlint .git/COMMIT_EDITMSG"
   }
 }
