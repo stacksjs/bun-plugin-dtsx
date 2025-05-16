@@ -50,15 +50,15 @@
     "typecheck": "bun tsc --noEmit"
   },
   "dependencies": {
-    "@stacksjs/dtsx": "^0.8.1"
+    "@stacksjs/dtsx": "^0.8.3"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.10.2-beta.3",
-    "@stacksjs/gitlint": "^0.1.3",
-    "@types/bun": "^1.2.12",
-    "bumpp": "^10.1.0",
-    "bun-git-hooks": "^0.2.15",
+    "@stacksjs/gitlint": "^0.1.5",
+    "@types/bun": "^1.2.13",
+    "bumpp": "^10.1.1",
+    "bun-git-hooks": "^0.2.16",
     "changelogen": "^0.6.1",
     "typescript": "^5.8.3"
   },
