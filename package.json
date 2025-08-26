@@ -52,7 +52,7 @@
     "typecheck": "bun tsc --noEmit"
   },
   "dependencies": {
-    "@stacksjs/dtsx": "^0.8.1"
+    "@stacksjs/dtsx": "^0.9.5"
   },
   "devDependencies": {
     "@stacksjs/bumpx": "^0.1.17",
