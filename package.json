@@ -55,7 +55,7 @@
     "@stacksjs/dtsx": "^0.8.1"
   },
   "devDependencies": {
-    "@stacksjs/bumpx": "^0.1.78",
+    "@stacksjs/bumpx": "^0.1.82",
     "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.10.2-beta.3",
     "@stacksjs/gitlint": "^0.1.5",
