@@ -63,7 +63,7 @@
     "@types/bun": "^1.2.23",
     "buddy-bot": "^0.8.9",
     "bun-git-hooks": "^0.2.19",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "git-hooks": {
     "pre-commit": {
