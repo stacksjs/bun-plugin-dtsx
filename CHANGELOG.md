@@ -1,3 +1,51 @@
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.12...v0.21.13)
+
+### 🧹 Chores
+
+- release v0.21.13 ([3246d33](https://github.com/stacksjs/bun-plugin-dtsx/commit/3246d33)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([2223403](https://github.com/stacksjs/bun-plugin-dtsx/commit/2223403)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#63) ([2b698f8](https://github.com/stacksjs/bun-plugin-dtsx/commit/2b698f8)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#63](https://github.com/stacksjs/bun-plugin-dtsx/issues/63), [#63](https://github.com/stacksjs/bun-plugin-dtsx/issues/63))
+- **deps**: update dependency @stacksjs/bumpx to 0.2.2 (#60) ([d32467a](https://github.com/stacksjs/bun-plugin-dtsx/commit/d32467a)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#60](https://github.com/stacksjs/bun-plugin-dtsx/issues/60), [#60](https://github.com/stacksjs/bun-plugin-dtsx/issues/60))
+- **deps**: update dependency @stacksjs/eslint-config to 4.14.0-beta.3 (#53) ([59d4e7c](https://github.com/stacksjs/bun-plugin-dtsx/commit/59d4e7c)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#53](https://github.com/stacksjs/bun-plugin-dtsx/issues/53), [#53](https://github.com/stacksjs/bun-plugin-dtsx/issues/53))
+- **deps**: update actions/checkout action to v5 (#42) ([631577c](https://github.com/stacksjs/bun-plugin-dtsx/commit/631577c)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#42](https://github.com/stacksjs/bun-plugin-dtsx/issues/42), [#42](https://github.com/stacksjs/bun-plugin-dtsx/issues/42))
+- **deps**: update all non-major dependencies (#41) ([01eab37](https://github.com/stacksjs/bun-plugin-dtsx/commit/01eab37)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#41](https://github.com/stacksjs/bun-plugin-dtsx/issues/41), [#41](https://github.com/stacksjs/bun-plugin-dtsx/issues/41))
+- update tools ([7d81f5b](https://github.com/stacksjs/bun-plugin-dtsx/commit/7d81f5b)) _(by Adelino Ngomacha <adelinob335@gmail.com>)_
+- update tools ([8e060b2](https://github.com/stacksjs/bun-plugin-dtsx/commit/8e060b2)) _(by Adelino Ngomacha <adelinob335@gmail.com>)_
+- add bun-git-hooks with gitlint ([d035380](https://github.com/stacksjs/bun-plugin-dtsx/commit/d035380)) _(by cab-mikee <mike.cabz32@gmail.com>)_
+- remove credit reference ([e5bee73](https://github.com/stacksjs/bun-plugin-dtsx/commit/e5bee73)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update dependency @types/bun to ^1.2.12 (#40) ([682ab7d](https://github.com/stacksjs/bun-plugin-dtsx/commit/682ab7d)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#40](https://github.com/stacksjs/bun-plugin-dtsx/issues/40), [#40](https://github.com/stacksjs/bun-plugin-dtsx/issues/40))
+
+### Contributors
+
+- _Adelino Ngomacha <adelinob335@gmail.com>_
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _cab-mikee <mike.cabz32@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.12...HEAD)
+
+### 🧹 Chores
+
+- wip ([2223403](https://github.com/stacksjs/bun-plugin-dtsx/commit/2223403)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#63) ([2b698f8](https://github.com/stacksjs/bun-plugin-dtsx/commit/2b698f8)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#63](https://github.com/stacksjs/bun-plugin-dtsx/issues/63), [#63](https://github.com/stacksjs/bun-plugin-dtsx/issues/63))
+- **deps**: update dependency @stacksjs/bumpx to 0.2.2 (#60) ([d32467a](https://github.com/stacksjs/bun-plugin-dtsx/commit/d32467a)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#60](https://github.com/stacksjs/bun-plugin-dtsx/issues/60), [#60](https://github.com/stacksjs/bun-plugin-dtsx/issues/60))
+- **deps**: update dependency @stacksjs/eslint-config to 4.14.0-beta.3 (#53) ([59d4e7c](https://github.com/stacksjs/bun-plugin-dtsx/commit/59d4e7c)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#53](https://github.com/stacksjs/bun-plugin-dtsx/issues/53), [#53](https://github.com/stacksjs/bun-plugin-dtsx/issues/53))
+- **deps**: update actions/checkout action to v5 (#42) ([631577c](https://github.com/stacksjs/bun-plugin-dtsx/commit/631577c)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#42](https://github.com/stacksjs/bun-plugin-dtsx/issues/42), [#42](https://github.com/stacksjs/bun-plugin-dtsx/issues/42))
+- **deps**: update all non-major dependencies (#41) ([01eab37](https://github.com/stacksjs/bun-plugin-dtsx/commit/01eab37)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#41](https://github.com/stacksjs/bun-plugin-dtsx/issues/41), [#41](https://github.com/stacksjs/bun-plugin-dtsx/issues/41))
+- update tools ([7d81f5b](https://github.com/stacksjs/bun-plugin-dtsx/commit/7d81f5b)) _(by Adelino Ngomacha <adelinob335@gmail.com>)_
+- update tools ([8e060b2](https://github.com/stacksjs/bun-plugin-dtsx/commit/8e060b2)) _(by Adelino Ngomacha <adelinob335@gmail.com>)_
+- add bun-git-hooks with gitlint ([d035380](https://github.com/stacksjs/bun-plugin-dtsx/commit/d035380)) _(by cab-mikee <mike.cabz32@gmail.com>)_
+- remove credit reference ([e5bee73](https://github.com/stacksjs/bun-plugin-dtsx/commit/e5bee73)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update dependency @types/bun to ^1.2.12 (#40) ([682ab7d](https://github.com/stacksjs/bun-plugin-dtsx/commit/682ab7d)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#40](https://github.com/stacksjs/bun-plugin-dtsx/issues/40), [#40](https://github.com/stacksjs/bun-plugin-dtsx/issues/40))
+
+### Contributors
+
+- _Adelino Ngomacha <adelinob335@gmail.com>_
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _cab-mikee <mike.cabz32@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
 
 ## v0.21.11...main
 
@@ -886,4 +934,3 @@
 ### ❤️ Contributors
 
 - Chris <chrisbreuer93@gmail.com>
-

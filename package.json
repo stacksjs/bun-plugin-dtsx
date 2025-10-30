@@ -1,7 +1,7 @@
 {
   "name": "bun-plugin-dtsx",
   "type": "module",
-  "version": "0.21.12",
+  "version": "0.21.13",
   "description": "A Bun Bundler plugin that auto generates your DTS types extremely fast.",
   "author": "Chris Breuer <chris@ow3.org>",
   "license": "MIT",
@@ -37,7 +37,11 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["LICENSE.md", "README.md", "dist"],
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "build": "bun build.ts",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
@@ -45,7 +49,7 @@
     "lint:fix": "bunx --bun eslint . --fix",
     "changelog": "bunx logsmith --verbose",
     "changelog:generate": "bunx logsmith --output CHANGELOG.md",
-    "release": "bun run changelog:generate && bunx bumpx prompt --recursive",
+    "release": "bun run changelog:generate && bunx --bun bumpx prompt --recursive",
     "postinstall": "bunx git-hooks",
     "prepublishOnly": "bun run build",
     "test": "bun test",
