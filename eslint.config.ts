@@ -1,6 +1,7 @@
+import type { Linter } from 'eslint'
 import stacks from '@stacksjs/eslint-config'
 
-export default stacks({
+const config = stacks({
   stylistic: {
     indent: 2,
     quotes: 'single',
@@ -12,4 +13,6 @@ export default stacks({
   ignores: [
     'fixtures/**',
   ],
-})
+}) as unknown as Linter.FlatConfig[]
+
+export default config

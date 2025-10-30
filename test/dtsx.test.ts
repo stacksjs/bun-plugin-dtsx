@@ -17,10 +17,11 @@ const mockPluginBuilder: PluginBuilder = {
     plugins: [] as BunPlugin[],
   },
   // Required plugin builder methods
-  onLoad() {},
-  onResolve() {},
-  onStart() {},
-  onBeforeParse() {},
+  onLoad(..._args: any[]) { return mockPluginBuilder },
+  onResolve(..._args: any[]) { return mockPluginBuilder },
+  onStart(..._args: any[]) { return mockPluginBuilder },
+  onBeforeParse(..._args: any[]) { return mockPluginBuilder },
+  onEnd(..._args: any[]) { return mockPluginBuilder },
   module: (_specifier: string, callback: () => any) => callback(),
 }
 

@@ -1,5 +1,6 @@
 import type { DtsGenerationOption } from '@stacksjs/dtsx'
 import type { BunPlugin } from 'bun'
+import fs from 'node:fs'
 import { generate } from '@stacksjs/dtsx'
 
 /**
@@ -28,6 +29,13 @@ export function dts(options: PluginConfig = {
 
     async setup(build) {
       const config = normalizeConfig(options, build)
+      if (config.clean && config.outdir) {
+        try {
+          fs.rmSync(config.outdir, { recursive: true, force: true })
+        }
+        catch {}
+        fs.mkdirSync(config.outdir, { recursive: true })
+      }
       await generate(config)
     },
   }
@@ -48,13 +56,15 @@ function normalizeConfig(options: PluginConfig, build: PluginConfig['build']): D
   }
 
   return {
-    ...options,
-    cwd: options.cwd,
+    cwd: options.cwd ?? root,
     root,
     entrypoints: options.entrypoints,
     outdir,
+    keepComments: options.keepComments,
     clean: options.clean,
     tsconfigPath: options.tsconfigPath,
+    verbose: options.verbose,
+    outputStructure: options.outputStructure,
   }
 }
 
