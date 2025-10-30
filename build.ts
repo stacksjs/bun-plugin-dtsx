@@ -1,5 +1,5 @@
 import process from 'node:process'
-import dts from './src/index'
+// Do not use the plugin while building itself to avoid interfering with Bun's bundling
 
 console.log('Building...')
 
@@ -9,7 +9,6 @@ const result = await Bun.build({
   target: 'bun',
   external: ['@stacksjs/dtsx'],
   // minify: true,
-  plugins: [dts()],
 })
 
 if (!result.success) {

@@ -1,6 +1,7 @@
 import type { DtsGenerationOption } from '@stacksjs/dtsx'
 import type { BunPlugin } from 'bun'
 import fs from 'node:fs'
+import path from 'node:path'
 import { generate } from '@stacksjs/dtsx'
 
 /**
@@ -55,10 +56,18 @@ function normalizeConfig(options: PluginConfig, build: PluginConfig['build']): D
     throw new Error('[bun-plugin-dtsx] Root directory is required')
   }
 
+  const normalizedEntrypoints = options.entrypoints ?? (build?.config as any)?.entrypoints?.map((ep: string) => {
+    if (!ep)
+      return ep as unknown as string
+    if (!path.isAbsolute(ep))
+      return ep
+    return path.relative(root, ep)
+  })
+
   return {
     cwd: options.cwd ?? root,
     root,
-    entrypoints: options.entrypoints,
+    entrypoints: normalizedEntrypoints,
     outdir,
     keepComments: options.keepComments,
     clean: options.clean,
