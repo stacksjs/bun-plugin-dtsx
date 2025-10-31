@@ -1,3 +1,45 @@
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.14...v0.21.15)
+
+### 🧹 Chores
+
+- release v0.21.15 ([0386f33](https://github.com/stacksjs/bun-plugin-dtsx/commit/0386f33)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([8103e37](https://github.com/stacksjs/bun-plugin-dtsx/commit/8103e37)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.14...HEAD)
+
+### 🧹 Chores
+
+- wip ([8103e37](https://github.com/stacksjs/bun-plugin-dtsx/commit/8103e37)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.13...v0.21.14)
+
+### 🧹 Chores
+
+- release v0.21.14 ([f3cb8f6](https://github.com/stacksjs/bun-plugin-dtsx/commit/f3cb8f6)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([0f14411](https://github.com/stacksjs/bun-plugin-dtsx/commit/0f14411)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.13...HEAD)
+
+### 🧹 Chores
+
+- wip ([0f14411](https://github.com/stacksjs/bun-plugin-dtsx/commit/0f14411)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.12...v0.21.13)
 
 ### 🧹 Chores
