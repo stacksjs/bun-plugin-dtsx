@@ -1,20 +1,12 @@
 import type { DtsGenerationOption } from '@stacksjs/dtsx'
-import type { BunPlugin } from 'bun'
-import fs from 'node:fs'
-import path from 'node:path'
+import type { BunPlugin, PluginBuilder } from 'bun'
+import process from 'node:process'
 import { generate } from '@stacksjs/dtsx'
 
 /**
- * Configuration interface extending DtsGenerationOption with build-specific properties
+ * Configuration interface extending DtsGenerationOption
  */
-interface PluginConfig extends DtsGenerationOption {
-  build?: {
-    config: {
-      root?: string
-      outdir?: string
-    }
-  }
-}
+interface PluginConfig extends DtsGenerationOption {}
 
 /**
  * Creates a Bun plugin for generating TypeScript declaration files
@@ -30,13 +22,6 @@ export function dts(options: PluginConfig = {
 
     async setup(build) {
       const config = normalizeConfig(options, build)
-      if (config.clean && config.outdir) {
-        try {
-          fs.rmSync(config.outdir, { recursive: true, force: true })
-        }
-        catch {}
-        fs.mkdirSync(config.outdir, { recursive: true })
-      }
       await generate(config)
     },
   }
@@ -48,32 +33,22 @@ export function dts(options: PluginConfig = {
  * @param build - Build configuration
  * @returns Normalized configuration
  */
-function normalizeConfig(options: PluginConfig, build: PluginConfig['build']): DtsGenerationOption {
-  const root = options.root || build?.config.root
-  const outdir = options.outdir || build?.config.outdir
+function normalizeConfig(options: PluginConfig, build: PluginBuilder): DtsGenerationOption {
+  const root = options.root || build.config.root
+  const outdir = options.outdir || build.config.outdir
 
   if (!root) {
     throw new Error('[bun-plugin-dtsx] Root directory is required')
   }
 
-  const normalizedEntrypoints = options.entrypoints ?? (build?.config as any)?.entrypoints?.map((ep: string) => {
-    if (!ep)
-      return ep as unknown as string
-    if (!path.isAbsolute(ep))
-      return ep
-    return path.relative(root, ep)
-  })
-
   return {
-    cwd: options.cwd ?? root,
+    ...options,
+    cwd: options.cwd || process.cwd(),
     root,
-    entrypoints: normalizedEntrypoints,
+    entrypoints: options.entrypoints || ['**/*.ts'],
     outdir,
-    keepComments: options.keepComments,
     clean: options.clean,
     tsconfigPath: options.tsconfigPath,
-    verbose: options.verbose,
-    outputStructure: options.outputStructure,
   }
 }
 
