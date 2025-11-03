@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.16...v0.21.17)
+
+### 🧹 Chores
+
+- release v0.21.17 ([c236287](https://github.com/stacksjs/bun-plugin-dtsx/commit/c236287)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([9025ab2](https://github.com/stacksjs/bun-plugin-dtsx/commit/9025ab2)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.16...HEAD)
+
+### 🧹 Chores
+
+- wip ([9025ab2](https://github.com/stacksjs/bun-plugin-dtsx/commit/9025ab2)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.15...v0.21.16)
 
 ### 🧹 Chores
