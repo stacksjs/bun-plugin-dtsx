@@ -1,3 +1,43 @@
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.15...v0.21.16)
+
+### 🧹 Chores
+
+- release v0.21.16 ([d2f708b](https://github.com/stacksjs/bun-plugin-dtsx/commit/d2f708b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#65) ([77d01b4](https://github.com/stacksjs/bun-plugin-dtsx/commit/77d01b4)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#65](https://github.com/stacksjs/bun-plugin-dtsx/issues/65), [#65](https://github.com/stacksjs/bun-plugin-dtsx/issues/65))
+- wip ([8b9771a](https://github.com/stacksjs/bun-plugin-dtsx/commit/8b9771a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#64) ([17c05a6](https://github.com/stacksjs/bun-plugin-dtsx/commit/17c05a6)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#64](https://github.com/stacksjs/bun-plugin-dtsx/issues/64), [#64](https://github.com/stacksjs/bun-plugin-dtsx/issues/64))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.15...HEAD)
+
+### 🧹 Chores
+
+- **deps**: update all non-major dependencies (#65) ([77d01b4](https://github.com/stacksjs/bun-plugin-dtsx/commit/77d01b4)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#65](https://github.com/stacksjs/bun-plugin-dtsx/issues/65), [#65](https://github.com/stacksjs/bun-plugin-dtsx/issues/65))
+- wip ([8b9771a](https://github.com/stacksjs/bun-plugin-dtsx/commit/8b9771a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#64) ([17c05a6](https://github.com/stacksjs/bun-plugin-dtsx/commit/17c05a6)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#64](https://github.com/stacksjs/bun-plugin-dtsx/issues/64), [#64](https://github.com/stacksjs/bun-plugin-dtsx/issues/64))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.15...HEAD)
+
+### 🧹 Chores
+
+- **deps**: update all non-major dependencies (#65) ([77d01b4](https://github.com/stacksjs/bun-plugin-dtsx/commit/77d01b4)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#65](https://github.com/stacksjs/bun-plugin-dtsx/issues/65), [#65](https://github.com/stacksjs/bun-plugin-dtsx/issues/65))
+- wip ([8b9771a](https://github.com/stacksjs/bun-plugin-dtsx/commit/8b9771a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#64) ([17c05a6](https://github.com/stacksjs/bun-plugin-dtsx/commit/17c05a6)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#64](https://github.com/stacksjs/bun-plugin-dtsx/issues/64), [#64](https://github.com/stacksjs/bun-plugin-dtsx/issues/64))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/bun-plugin-dtsx/compare/v0.21.14...v0.21.15)
 
 ### 🧹 Chores
