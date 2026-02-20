@@ -13,5 +13,5 @@ declare module '@stacksjs/dtsx' {
 
   export type DtsGenerationOption = Partial<DtsGenerationConfig>
 
-  export function generate(options?: DtsGenerationOption): Promise<void>
+  export function generate(_options?: DtsGenerationOption): Promise<void>
 }
