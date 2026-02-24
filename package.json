@@ -58,11 +58,11 @@
     "format:fix": "bunx --bun pickier format . --write"
   },
   "dependencies": {
-    "@stacksjs/dtsx": "^0.9.8"
+    "@stacksjs/dtsx": "^0.9.12"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
-    "better-dx": "^0.2.5"
+    "better-dx": "^0.2.6"
   },
   "git-hooks": {
     "pre-commit": {
