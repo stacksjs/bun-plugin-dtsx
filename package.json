@@ -45,8 +45,8 @@
   "scripts": {
     "build": "bun build.ts",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
-    "lint": "bunx --bun pickier lint .",
-    "lint:fix": "bunx --bun pickier lint . --fix",
+    "lint": "bunx --bun pickier .",
+    "lint:fix": "bunx --bun pickier . --fix",
     "changelog": "bunx logsmith --verbose",
     "changelog:generate": "bunx logsmith --output CHANGELOG.md",
     "release": "bun --bun run changelog:generate && bunx --bun bumpx prompt --recursive",
@@ -54,8 +54,8 @@
     "prepublishOnly": "bun run build",
     "test": "bun test",
     "typecheck": "bun tsc --noEmit",
-    "format": "bunx --bun pickier format .",
-    "format:fix": "bunx --bun pickier format . --write"
+    "format": "bunx --bun pickier . --format",
+    "format:fix": "bunx --bun pickier . --format --write"
   },
   "dependencies": {
     "@stacksjs/dtsx": "^0.9.8"
