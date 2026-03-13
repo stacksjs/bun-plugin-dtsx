@@ -2,7 +2,7 @@
 
 ## About
 
-A Bun Bundler plugin that auto generates your DTS types extremely fast.
+bun-plugin-dtsx is a Bun build plugin that automatically generates TypeScript declaration (`.d.ts`) files from your source code. It is powered by Bun's isolatedDeclarations for fast generation and supports monorepo setups. Key options include configurable root/outdir paths, comment preservation, and custom tsconfig path.
 
 ## Linting
 
