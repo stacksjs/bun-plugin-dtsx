@@ -5,7 +5,7 @@
     "": {
       "name": "bun-plugin-dtsx",
       "dependencies": {
-        "@stacksjs/dtsx": "^0.9.8",
+        "@stacksjs/dtsx": "^0.9.13",
       },
       "devDependencies": {
         "@stacksjs/docs": "^0.70.23",
