@@ -61,7 +61,6 @@
     "@stacksjs/dtsx": "^0.9.8"
   },
   "devDependencies": {
-    "@stacksjs/docs": "^0.70.23",
     "better-dx": "^0.2.7"
   },
   "git-hooks": {
