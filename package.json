@@ -58,7 +58,7 @@
     "format:fix": "bunx --bun pickier . --format --write"
   },
   "dependencies": {
-    "@stacksjs/dtsx": "^0.9.8"
+    "@stacksjs/dtsx": "^0.9.13"
   },
   "devDependencies": {
     "better-dx": "^0.2.7"
