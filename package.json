@@ -60,7 +60,16 @@
   "dependencies": {
     "@stacksjs/dtsx": "^0.9.8"
   },
+  "peerDependencies": {
+    "@stacksjs/zig-dtsx": "^0.9.26"
+  },
+  "peerDependenciesMeta": {
+    "@stacksjs/zig-dtsx": {
+      "optional": true
+    }
+  },
   "devDependencies": {
+    "@stacksjs/zig-dtsx": "^0.9.26",
     "better-dx": "^0.2.15"
   },
   "git-hooks": {
