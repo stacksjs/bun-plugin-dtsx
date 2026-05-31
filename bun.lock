@@ -5,7 +5,7 @@
     "": {
       "name": "bun-plugin-dtsx",
       "dependencies": {
-        "@stacksjs/dtsx": "^0.9.8",
+        "@stacksjs/dtsx": "^0.9.28",
       },
       "devDependencies": {
         "@stacksjs/zig-dtsx": "^0.9.26",
@@ -36,7 +36,7 @@
 
     "@stacksjs/desktop": ["@stacksjs/desktop@0.2.67", "", { "peerDependencies": { "craft": "*" }, "optionalPeers": ["craft"] }, "sha512-eVOQdAWOY6779isIK3j+6dNVRExxAQpwjq1udTUXzsjtjDy3h0yZ7zQ4mwaWio97hfKbr1YRZzO+7npBTm6Hqw=="],
 
-    "@stacksjs/dtsx": ["@stacksjs/dtsx@0.9.27", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0" }, "peerDependencies": { "typescript": ">=5.9.3" }, "bin": { "dtsx": "./dist/bin/cli.js" } }, "sha512-cDzZkiQ1/NtZtLu9ojzS6jeKBFin/O5AUkYKBQgZ2Bw7DQ3gBQIbw3oi14Cmq5vOa86j5XYsX0SmQIl3A2nZLg=="],
+    "@stacksjs/dtsx": ["@stacksjs/dtsx@0.9.28", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0" }, "peerDependencies": { "typescript": ">=5.9.3" }, "bin": { "dtsx": "./dist/bin/cli.js" } }, "sha512-ofODx/TsFUTks+oYxLMAD7y3etlbFeEIdtEkKF5WoAYwHivSetcbHfPgy+exTnZT3RRMOoHBW4kjwjfs2LTcTQ=="],
 
     "@stacksjs/gitlint": ["@stacksjs/gitlint@0.1.6", "", { "bin": { "gitlint": "./dist/bin/cli.js" } }, "sha512-A4MTsddeWHEhz0mLKq+P/CqHxmWv4SWhrmWotP1UMtVbGlpYs/q+bwqrFyThT6L9xMR8iWKGVTV908oS6QDeNg=="],
 
